@@ -6,4 +6,12 @@ module KnowsTheWebDriver
   end
 end
 
+module KnowsTheUrl
+  def url
+    @url ||= 'http://192.168.1.149:8008'
+  end
+end
+
 World(KnowsTheWebDriver)
+World(KnowsTheUrl)
+

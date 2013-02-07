@@ -1,5 +1,5 @@
 Given /^I navigate on the log in page$/ do
-  driver.get 'http://192.168.1.152:8008'
+  driver.get url
 end
 
 When /^I enter correct username and password$/ do
